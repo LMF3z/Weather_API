@@ -1,0 +1,136 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  /* background: rgba(26, 35, 126, 0.9); */
+}
+
+.cabecera{
+  width: 100%;
+  height: 75px;
+  box-sizing: border-box;
+  /*background: #33691e;*/
+  /* background: rgba(0, 184, 212, 1); */
+  background: rgba(26, 35, 126, 0.9);
+  text-align: center;
+  padding-top: 3%;
+  color: white;
+  text-transform: uppercase;
+}
+
+/* CUERPO */
+
+.raiz{
+  display: flex;
+  background: rgba(26, 35, 126, 0.8);
+  height: 88vh;
+}
+
+.contiene_form{
+  width: 50%;
+  /* border: solid 1px red; */
+}
+
+/* FORMULARIO */
+
+.formulario{
+  margin: auto;
+  /* padding: 2%; */
+  text-align: center;
+  /* border: solid 1px olive;ss */
+}
+
+.formulario .label{
+  width: 100%;
+  /*border: solid 1px yellow;*/
+  padding: 15px;
+  font-size: 25px;
+  margin-bottom: 3%;
+  color: white;
+}
+
+.entrada, .selec_pais, .enviar{
+  width: 100%;
+  /*border: solid 1px red;*/
+  margin-top: 15px;
+  margin-bottom: 15px;
+  height: 50px;
+}
+
+.entrada input{
+  font-size: 28px;
+}
+
+.entrada input, .selec_pais select, .enviar input{
+  height: 100%;
+  width: 95%;
+}
+.enviar input{
+  border: none;
+  background: rgba(0, 184, 212, 1);
+  font-size: 28px;
+  color: white;
+}
+
+.selec_pais select{
+  font-size: 18px;
+}
+
+.selec_pais select, .enviar input:hover{
+  cursor: pointer;
+}
+
+
+/* MEDIO */
+
+.medio{
+  width: 1px;
+  background: yellow;
+}
+
+/* RESULTADO */
+
+.contiene_result{
+  width: 50%;
+  /*border: solid 1px red;*/
+}
+
+.resultado{
+  display: none;
+  margin: 2%;
+  /* height: 90%; */
+  padding: 3%;
+  text-align: center;
+  background: white;
+  /*border: solid 1px olive;*/
+}
+
+.resultado p{
+  margin-bottom: 5px;
+}
+
+.nube{
+  margin-top: 2%;
+  width: 120px;
+  height: 120px;
+  margin-bottom: 2%;
+}
+
+/* Error */
+
+.error{
+  display: none;
+  margin: auto;
+  margin-top: 25%;
+  /* padding-top: 30px;*/
+  padding: 2%;
+  width: 95%;
+  /* height: 80px; */
+  background: rgba(255, 61, 0, 1);
+  font-size: 22px;
+  color: white;
+  text-align: center;
+}
